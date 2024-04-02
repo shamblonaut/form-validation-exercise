@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Register Account</title>
+  <link rel="stylesheet" href="style.css">
+  <script src="main.js" defer></script>
+</head>
+<body>
+  <form action="">
+    <div class="header">Register Account</div>
+    <div class="fields">
+      <div class="field name">
+        <label for="name">Name</label>
+        <input name="name" id="name">
+        <div class="error"></div>
+      </div>
+      <div class="field email">
+        <label for="email">Email</label>
+        <input name="email" id="email">
+        <div class="error"></div>
+      </div>
+      <div class="field country">
+        <label for="country">Country</label>
+        <select name="country" id="country">
+          <option value="in">India</option>
+          <option value="ps">Palestine</option>
+          <option value="gb">United Kingdom</option>
+          <option value="us">United States</option>
+          <option value="jp">Japan</option>
+          <option value="nz">New Zealand</option>
+        </select>
+        </div>
+      <div class="field zip">
+        <label for="zip">Zip Code</label>
+        <input name="zip" id="zip">
+        <div class="error"></div>
+      </div>
+      <div class="field password">
+        <label for="password">Password</label>
+        <input name="password" id="password">
+        <div class="error"></div>
+      </div>
+      <div class="field confirm">
+        <label for="confirm">Confirm Password</label>
+        <input name="confirm" id="confirm">
+        <div class="error"></div>
+      </div>
+    </div>
+    <button type="button" class="submit">Submit</button>
+  </form>
+  <div class="popper-left"></div>
+  <div class="popper-right"></div>
+  <div class="success-text">You completed the form successfully!</div>
+</body>
+</html>
